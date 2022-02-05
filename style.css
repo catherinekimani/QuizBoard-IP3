@@ -18,3 +18,35 @@
 .container {
     margin:8%;
 }
+
+.quiz {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    color: fuchsia;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav {
+    display: flex;
+    position: absolute;
+    top: 17%;
+    right: 20%;
+}
+
+a {
+    text-decoration: none;
+    text-indent: 25px;
+    color: fuchsia;
+    font-weight: bold;
+}
+
+.developers {
+    display: flex;
+    position: absolute;
+    font-weight: bold;
+    color: fuchsia;
+    top:70%;
+    right: 20%;
+}
