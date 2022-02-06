@@ -50,3 +50,68 @@ a {
     top:70%;
     right: 20%;
 }
+
+.sectionA {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: #070F3F;
+    width: 100%;
+    height: 60vh;
+}
+
+.questions {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.rules {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    margin: 5%;
+    right: 45%;
+}
+
+.rulesB {
+    position: absolute;
+    margin: 10%;
+    right: 25%;
+    color: white;
+    font-weight: bold;
+}
+
+.by {
+    position: absolute;
+    margin: 20%;
+    right: 10%;
+    color: turquoise;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.sectionB {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: #070F3F;
+    color: rgba(247, 252, 251, 0.747);
+    border: 7px solid black;
+    border-radius: 10px;
+    border-style: outset;
+    width: 100%;
+    height: 110vh;
+}
+.form {
+    position: absolute;
+}
+
+.btn {
+    position: absolute;
+    text-align: right;
+}
