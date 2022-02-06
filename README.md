@@ -20,9 +20,9 @@ Reach me via:
 Email: catherine.kimani@student.moringaschool.com
 Phome: +254 743566442
 ## LANGUAGES
-HTML
-CSS
-JAVASCRIPT
+* HTML
+* CSS
+* JAVASCRIPT
 
 ## License
 Copyright (c) 2022 [Click to view License](LICENSE)
