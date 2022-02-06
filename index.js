@@ -1,4 +1,3 @@
-// alert("Hello, Graduate, Welcome To JavaScript Quiz Board");
 function myButton(){
     var total = 5;
     var score = 0;
