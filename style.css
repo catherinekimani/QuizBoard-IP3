@@ -99,7 +99,7 @@ a {
     display: flex;
     justify-content: center;
     position: relative;
-    background: #070F3F;
+    background: #070F3F ;
     color: rgba(247, 252, 251, 0.747);
     border: 7px solid black;
     border-radius: 10px;
