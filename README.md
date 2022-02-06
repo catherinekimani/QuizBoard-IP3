@@ -10,7 +10,8 @@ The quizBoard also has an image and includes diffrent styles
 
 ## SetUp/Installation Instructions
 * Ensure you have access to a browser
-* Click on the live link in the about section
+* Click on the live link in the about section https://catherinekimani.github.io/QuizBoard-IP3/
+* Click here to view QuizBoard designs https://www.figma.com/file/mDC4ikcXLzv0KHpgqKX2DY/QuizBoard-1P3?node-id=0%3A1
 * Have fun!!!
 
 
