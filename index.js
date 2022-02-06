@@ -1,0 +1,1 @@
+alert("Hello, Graduate, Welcome To JavaScript Quiz Board");
