@@ -13,3 +13,9 @@
     border-radius:3px;
     color:white;
 }
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(251, 255, 255, 0.747);
+    text-transform: uppercase;
+    text-decoration: underline;
+}

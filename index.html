@@ -10,30 +10,31 @@
 </head>
 <body>
             
-            <form name="quizBoard" class="form mx-auto w-50">
+            <form name="quizBoard" class="form mx-auto mt-2 w-50">
+                <h3 class="">Simple JavaScript Test...Try it out</h3>
                 <div class="mb-4">
                 <p> 1. Its is a scripting language that lets us implement features on webpages.</p>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q1" id="q1a" value="a" />
+                        <input type="radio" name="q1" id="q1a" value="a" required />
                         <span> JavaScript</span>
                     </label>
                 </div>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q1" value="b" id="q1b">
+                        <input type="radio" name="q1" value="b" id="q1b" required>
                         <span>Html</span>
                     </label>
                 </div>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q1" value="c" id="q1c">
+                        <input type="radio" name="q1" value="c" id="q1c" required>
                         <span>Python</span>
                     </label>
                 </div>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q1" value="d" id="q1d">
+                        <input type="radio" name="q1" value="d" id="q1d" required>
                         <span>Css</span>
                     </label>
                 </div>
@@ -43,19 +44,19 @@
                 <p> 2. What is a JavaScript code block?</p>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q2" value="a" id="q2a">
+                        <input type="radio" name="q2" value="a" id="q2a" required>
                         <span>A group  of Css statements</span>
                     </label>
                 </div>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q2" value="b" id="q2b">
+                        <input type="radio" name="q2" value="b" id="q2b" required>
                         <span>A groups of JavaScript statements</span>
                     </label>
                 </div>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q2" value="c" id="q2c"> 
+                        <input type="radio" name="q2" value="c" id="q2c" required> 
                         <span> A block of codes</span>
                     </label>
                 </div>
@@ -65,25 +66,25 @@
                 <p> 3. What is the date type of x? <br> var x = { firstNmae = "kate"; lastName = "Wambui; } </p>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q3" value="a" id="q3a"> 
+                        <input type="radio" name="q3" value="a" id="q3a" required> 
                         <span> A String</span>
                     </label>
                 </div>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q3" value="b" id="q3b"> 
+                        <input type="radio" name="q3" value="b" id="q3b" required> 
                         <span> An object</span>
                     </label>
                 </div>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q3" value="c" id="q3c"> 
+                        <input type="radio" name="q3" value="c" id="q3c" required> 
                         <span> A Number</span>
                     </label>
                 </div>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q3" value="d" id="q3d"> 
+                        <input type="radio" name="q3" value="d" id="q3d" required> 
                         <span> A Boolean</span>
                     </label>
                 </div>
@@ -93,19 +94,19 @@
                 <p>  4. Which of the following is used to return a value to the function caller?</p>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q4" value="a" id="q4a"> 
+                        <input type="radio" name="q4" value="a" id="q4a" required> 
                         <span>the if statement</span>
                     </label>
                 </div>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q4" value="b" id="q4b">
+                        <input type="radio" name="q4" value="b" id="q4b" required>
                         <span> the var statement</span>
                     </label>
                 </div>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q4" value="c" id="q4c"> 
+                        <input type="radio" name="q4" value="c" id="q4c" required> 
                         <span> the return statement</span>
                     </label>
                 </div>
@@ -115,23 +116,22 @@
                 <p> 5. Which of the following property an array?</p>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q5" value="a" id="q5a"> 
+                        <input type="radio" name="q5" value="a" id="q5a" required> 
                         <span> var arr = ["Hello", "World"];</span>
                     </label>
                 </div>
                 <div class="ans">
                     <label>
-                        <input type="radio" name="q5" value="b" id="q5b"> 
+                        <input type="radio" name="q5" value="b" id="q5b" required> 
                         <span> var arr ={"Hello", "World"};t</span>
                     </label>
                 </div>
                 </div>
                 <div class="btn">
-                <input type ="submit"  onclick="myButton()" value="Submit Answers">
+                    <button type="submit" class="btn btn-outline-info" onclick="myButton()" value="Submit Answers">submit</button>
                 </div>
             </form>
-            <div id="remarks"></div>
-        <div id="results"></div>
+        <div id="results"><p></p></div>
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
         <script src="index.js"></script>
 </body>
