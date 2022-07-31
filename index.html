@@ -6,85 +6,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <script src="index.js"> </script>
-        <div class="heading">
-            <h2> MORINGA SCHOOL 2022 JAVASCRIPT GRADUATES </h2>
-        </div>
-        <section class="navbar">  
-        <div class="container">
-            <img src="images/JavaScript-1-780x470.png" alt="">
-            <div class="quiz">
-                <p> Js Quiz Test </p>
-            </div>
-            <div class="nav">
-                <a href="#"> Home </a>
-                <a href="#"> About </a>
-                <a href="#"> Info </a>
-                <a href="#"> Contact </a>
-            </div>
-            <div class="developers"> 
-                <p> Worls <br>Class <br> Software <br>Developers</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="sectionA">
-        <div class="questions">
-            <h5> Questions 5 </h5>
-        </div>
-        <div class="rules">
-            <p> Rules </p>
-        </div>
-        <div class="rulesB">
-            <p> 1. There are five (5) simple JavaScript Questions. </p>
-            <p> 2. Read and understand the questions before answering. </p>
-            <p> 3. Each Question has 10 marks.</p>
-            <div class="by"> Good Luck !! &#128525</div>
-            </div>
-        </section> 
-        <section class="sectionB">
-            <div class="results">
-            <form name="quizBoard">
-                <h3> 1. Its is a scripting language that lets us implement features on webpages.</h3>
-                <input type="radio" name="q1" value="a" id="q1a"> a. &lt;JavaScript&gt;<br>
-                <input type="radio" name="q1" value="b" id="q1b"> b. &lt;Html&gt;<br>
-                <input type="radio" name="q1" value="c" id="q1c"> c. &lt;python&gt;<br>
-                <input type="radio" name="q1" value="d" id="q1d"> d. &lt;Css&gt;<br>
-
-                <h3> 2. What is a JavaScript code block?</h3>
-                <input type="radio" name="q2" value="a" id="q2a"> a. A group  of Css statements <br>
-                <input type="radio" name="q2" value="b" id="q2b"> b. A groups of JavaScript statements <br>
-                <input type="radio" name="q2" value="c" id="q2c"> c. A block of codes <br>
-
-                <h3> 3. What is the date type of x? <br> var x = { firstNmae = "kate"; lastName = "Wambui; } </h3>
-                <input type="radio" name="q3" value="a" id="q3a"> a. A String <br>
-                <input type="radio" name="q3" value="b" id="q3b"> b. An object <br>
-                <input type="radio" name="q3" value="c" id="q3c"> c. A Number <br>
-                <input type="radio" name="q3" value="d" id="q3d"> d. A Boolean <br>
-
-                <h3>  4. Which of the following is used to return a value to the function caller?</h3>
-                <input type="radio" name="q4" value="a" id="q4a">a. the if statement <br>
-                <input type="radio" name="q4" value="b" id="q4b">b. the var statement <br>
-                <input type="radio" name="q4" value="c" id="q4c">c. the return statement <br>
-
-                <h3> 5. Which of the following property an array?</h3>
-                <input type="radio" name="q5" value="a" id="q5a">a. var arr = ["Hello", "World"]; <br>
-                <input type="radio" name="q5" value="b" id="q5b">b. var arr ={"Hello", "World"};
-                <br> <br>
+            
+            <form name="quizBoard" class="form mx-auto w-50">
+                <div class="mb-4">
+                <p> 1. Its is a scripting language that lets us implement features on webpages.</p>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q1" id="q1a" value="a" />
+                        <span> JavaScript</span>
+                    </label>
+                </div>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q1" value="b" id="q1b">
+                        <span>Html</span>
+                    </label>
+                </div>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q1" value="c" id="q1c">
+                        <span>Python</span>
+                    </label>
+                </div>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q1" value="d" id="q1d">
+                        <span>Css</span>
+                    </label>
+                </div>
+                </div>
+                <!-- two -->
+                <div class="mb-4">
+                <p> 2. What is a JavaScript code block?</p>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q2" value="a" id="q2a">
+                        <span>A group  of Css statements</span>
+                    </label>
+                </div>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q2" value="b" id="q2b">
+                        <span>A groups of JavaScript statements</span>
+                    </label>
+                </div>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q2" value="c" id="q2c"> 
+                        <span> A block of codes</span>
+                    </label>
+                </div>
+                </div>
+                <!-- three -->
+                <div class="mb-4">
+                <p> 3. What is the date type of x? <br> var x = { firstNmae = "kate"; lastName = "Wambui; } </p>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q3" value="a" id="q3a"> 
+                        <span> A String</span>
+                    </label>
+                </div>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q3" value="b" id="q3b"> 
+                        <span> An object</span>
+                    </label>
+                </div>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q3" value="c" id="q3c"> 
+                        <span> A Number</span>
+                    </label>
+                </div>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q3" value="d" id="q3d"> 
+                        <span> A Boolean</span>
+                    </label>
+                </div>
+                </div>
+                <!-- four -->
+                <div class="mb-4">
+                <p>  4. Which of the following is used to return a value to the function caller?</p>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q4" value="a" id="q4a"> 
+                        <span>the if statement</span>
+                    </label>
+                </div>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q4" value="b" id="q4b">
+                        <span> the var statement</span>
+                    </label>
+                </div>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q4" value="c" id="q4c"> 
+                        <span> the return statement</span>
+                    </label>
+                </div>
+                </div>
+                <!-- five -->
+                <div class="mb-4">
+                <p> 5. Which of the following property an array?</p>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q5" value="a" id="q5a"> 
+                        <span> var arr = ["Hello", "World"];</span>
+                    </label>
+                </div>
+                <div class="ans">
+                    <label>
+                        <input type="radio" name="q5" value="b" id="q5b"> 
+                        <span> var arr ={"Hello", "World"};t</span>
+                    </label>
+                </div>
+                </div>
                 <div class="btn">
                 <input type ="submit"  onclick="myButton()" value="Submit Answers">
                 </div>
             </form>
-            </div>
-
-            <div id="results"></div>
-        </div>
-        </section>
-    <footer>
-        <p> Copyright &copy: 2022,All Rigthts Reserved</p>
-    </footer>
-    <script src="index.js"></script>
+            <div id="remarks"></div>
+        <div id="results"></div>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="index.js"></script>
 </body>
 </html>

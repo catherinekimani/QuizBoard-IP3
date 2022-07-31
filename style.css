@@ -1,117 +1,15 @@
-.heading {
-    position: absolute;
-    text-align: center;
-    font-style: normal;
-    font-family: 'Roboto';
-    color: rgba(7, 15, 63, 0.89);
-    width: 50%;
-    right: 25%;
-}
-.navbar {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container {
-    margin:8%;
-}
-
-.quiz {
-    display: flex;
-    position: absolute;
-    top: 15%;
-    color: fuchsia;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.nav {
-    display: flex;
-    position: absolute;
-    top: 17%;
-    right: 20%;
-}
-
-a {
-    text-decoration: none;
-    text-indent: 25px;
-    color: fuchsia;
-    font-weight: bold;
-}
-
-.developers {
-    display: flex;
-    position: absolute;
-    font-weight: bold;
-    color: fuchsia;
-    top:70%;
-    right: 20%;
-}
-
-.sectionA {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    background: #070F3F;
-    width: 100%;
-    height: 60vh;
-}
-
-.questions {
-    position: absolute;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-}
-
-.rules {
-    position: absolute;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    text-decoration: underline;
-    margin: 5%;
-    right: 45%;
-}
-
-.rulesB {
-    position: absolute;
-    margin: 10%;
-    right: 25%;
-    color: white;
-    font-weight: bold;
-}
-
-.by {
-    position: absolute;
-    margin: 20%;
-    right: 10%;
-    color: turquoise;
-    font-style: italic;
-    font-weight: bold;
-}
-
-
-.sectionB {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    background: #070F3F ;
-    color: rgba(247, 252, 251, 0.747);
-    border: 7px solid black;
-    border-radius: 10px;
-    border-style: outset;
-    width: 100%;
-    height: 110vh;
-}
-.form {
-    position: absolute;
-}
-
-.btn {
-    position: absolute;
-    text-align: right;
+.form{
+    
+    background:#090129f6;
+    gap:1rem;
+    padding:1rem;
+    box-shadow:2px 7px 8px rgba(0, 0, 0, 0.476);
+    border-radius:3px;
+    color:white;
 }
