@@ -4,7 +4,7 @@
 
 ### By Catherine Kimani
 
-### Hoods
+### Home page
 ![catherine](./images/quiz.png)
 
 ## Table of Content
